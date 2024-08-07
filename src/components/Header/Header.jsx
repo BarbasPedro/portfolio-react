@@ -1,4 +1,4 @@
-import React from "react";
+
 import headerCSS from './../Header/Header.module.css';
 
 import cv from './../../assets/CV Pedro Barbas (Fullstack).pdf';
@@ -13,11 +13,20 @@ function Header () {
                 <p>Bem-vindo ao meu portfólio, eu sou <strong>Desenvolvedor Fullstack</strong> <br /> Estudo na área há 2 anos</p>
 
                 <div className={headerCSS.social}>
-                    <a href={cv} className="ri-linkedin-line" target="_blank" rel="noopener noreferrer"></a>
-                    <a href="https://github.com/BarbasPedro" className="ri-github-line" target="_blank" rel="noopener noreferrer"></a>
+                    <a
+                        href={cv}
+                        className="ri-linkedin-line"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="LinkedIn"></a>
+                    <a
+                        href="https://github.com/BarbasPedro" className="ri-github-line"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="GitHub"></a>
                 </div>
 
-                <a href={require('./../../assets/CV Pedro Barbas (Fullstack).pdf')} download>
+                <a href={cv} download>
                     <button>
                         Download CV
                         <span></span>

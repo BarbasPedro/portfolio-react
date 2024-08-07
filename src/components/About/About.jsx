@@ -1,5 +1,4 @@
-/* eslint-disable no-undef */
-import React from "react";
+
 
 import aboutImg from './../../assets/aboutImg.png';
 import aboutCSS from './About.module.css';
