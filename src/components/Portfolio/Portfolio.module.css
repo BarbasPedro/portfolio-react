@@ -1,0 +1,66 @@
+.swiper {
+    width: 100%;
+}
+
+.portfolioWrapper {
+    color: var(--text-color);
+    gap: 18px;
+
+    .pera {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+
+    > h2 {
+        font-size: 38px;
+        line-height: 30px;
+    }
+}
+
+.Card {
+    height: 180px;
+    width: 380px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+
+
+    &:hover {
+        .content {
+            left: 20px;
+        }
+    }
+
+    .content{
+        position: absolute;
+        top: 100px;
+        left: -230px;
+        color: var(--text-color);
+        padding: 10px 15px;
+        border-radius: 8px;
+        background-color: var(--bg-color);
+        border: 0.5px solid var(--text-color);
+        transition: .2s;
+
+        h3 {
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+}
+
+.Card1 {
+    background-image: url(./../../assets/Card1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Card2 {
+    background-image: url(./../../assets/Card2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Card3 {
+    background-image: url(./../../assets/Card3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
