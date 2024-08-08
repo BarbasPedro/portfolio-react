@@ -13,7 +13,7 @@ function About () {
                 Atualmente, estou desenvolvendo habilidades em Java e em cloud AWS.
                 </p>
 
-                <div className={aboutCSS.Skills}>
+                <div className={aboutCSS.Skills} id='skills'>
                     <h2>Skills</h2>
 
                     <div className={aboutCSS.SkillWrapper}>

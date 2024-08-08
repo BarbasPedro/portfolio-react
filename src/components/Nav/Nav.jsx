@@ -39,7 +39,7 @@ function Nav () {
                 <li><a href="#about"><i className="ri-user-line"></i>Sobre</a></li>
                 <li><a href="#skills"><i className="ri-shield-check-line"></i>Skills</a></li>
                 <li><a href="#knowledgeAreas"><i className="ri-award-line"></i>Conhecimento Técnico</a></li>
-                <li><a href="#knowledgeAreas"><i className="ri-folder-5-line"></i>Portfólio</a></li>
+                <li><a href="#portfolio"><i className="ri-folder-5-line"></i>Portfólio</a></li>
                 <li><a href="#certificates"><i className="ri-verified-badge-line"></i>Certificados</a></li>
                 <li><a href="#contact"><i className="ri-phone-line"></i>Contato</a></li>
             </ul>
