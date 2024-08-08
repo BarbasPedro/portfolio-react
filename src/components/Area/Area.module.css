@@ -65,6 +65,7 @@
             }
 
             div {
+                color: var(--pera-color);
                 display: grid;
                 grid-template-columns: repeat(3,1fr);
                 ul:nth-child(2){
