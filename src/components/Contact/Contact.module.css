@@ -1,13 +1,10 @@
 .ContactWrapper {
+    width: 100%;
     gap: 18px;
-
-    .pera {
-        width: 60%;
-        margin-bottom: 30px;
-    }
 
     h2 {
         font-size: 38px;
+        margin-bottom: 32px;
         line-height: 30px;
         color: var(--text-color);
     }
@@ -17,7 +14,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 40px;
     color: var(--text-color);
 
     .ContactInfo{

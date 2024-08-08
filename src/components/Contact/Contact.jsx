@@ -4,7 +4,6 @@ function Contact () {
     return(
         <div className={`${contactCSS.ContactWrapper} section`}>
             <h2>Contatos</h2>
-            <p className={contactCSS.pera}>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             <div className={contactCSS.ContactContainer}>
                 <div className={contactCSS.ContactInfo}>
                     <div className={contactCSS.card}>
