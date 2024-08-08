@@ -6,7 +6,7 @@ import aboutCSS from './About.module.css';
 function About () {
     return (
         <div className={`${aboutCSS.AboutWrapper} section`}>
-            <div className={aboutCSS.AboutContainer}>
+            <div className={aboutCSS.AboutContainer} id='about'>
                 <h2>Sobre mim</h2>
                 <p>Nasci em Portugal e vim para o Brasil com 18 anos. Estudo programação há pouco mais de 2 anos e, desde o começo do ano 2024, me dedico somente à atividade.
                 Sou <strong>Dev Full Stack</strong> formado pela EBAC - Escola Britânica de Artes Criativas & Tecnologia e graduando em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta.
@@ -15,8 +15,6 @@ function About () {
 
                 <div className={aboutCSS.Skills}>
                     <h2>Skills</h2>
-
-                    <p>Hard Skills:</p>
 
                     <div className={aboutCSS.SkillWrapper}>
                         <div className={aboutCSS.skill}>

@@ -16,13 +16,14 @@
         p {
             font-size: 14px;
             color: var(--pera-color);
+            margin-bottom: 60px;
         }
 
         .SkillWrapper{
             display: flex;
             flex-direction: column;
             gap: 30px;
-            margin-top: 60px;
+            margin-top: 32px;
 
             .skill {
                 display: flex;

@@ -9,7 +9,7 @@ function Certificate() {
     const totalCertificados = certificadoPaths.length;
 
     return (
-        <div className={`${certificateCSS.certificateWrapper} section`}>
+        <div className={`${certificateCSS.certificateWrapper} section`} id='certificates'>
             <h2>Meus Certificados ({totalCertificados})</h2>
 
             <Swiper

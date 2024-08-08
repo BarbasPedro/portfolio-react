@@ -35,10 +35,13 @@ function Nav () {
             </div>
 
             <ul ref={Menu}>
-                <li><a href="#"><i className="ri-home-3-line"></i>Home</a></li>
-                <li><a href="#"><i className="ri-user-line"></i>About</a></li>
-                <li><a href="#"><i className="ri-shield-check-line"></i>Skills</a></li>
-                <li><a href="#"><i className="ri-phone-line"></i>Contact</a></li>
+                <li><a href="#home"><i className="ri-home-3-line"></i>Início</a></li>
+                <li><a href="#about"><i className="ri-user-line"></i>Sobre</a></li>
+                <li><a href="#skills"><i className="ri-shield-check-line"></i>Skills</a></li>
+                <li><a href="#knowledgeAreas"><i className="ri-award-line"></i>Conhecimento Técnico</a></li>
+                <li><a href="#knowledgeAreas"><i className="ri-folder-5-line"></i>Portfólio</a></li>
+                <li><a href="#certificates"><i className="ri-verified-badge-line"></i>Certificados</a></li>
+                <li><a href="#contact"><i className="ri-phone-line"></i>Contato</a></li>
             </ul>
 
             <div className={navCSS.NavBtns}>

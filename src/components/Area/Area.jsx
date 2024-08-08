@@ -10,7 +10,7 @@ const defaultOptions = {
 
 function Area() {
     return(
-        <div className={`${areaCSS.AreaWrapper} section`}>
+        <div className={`${areaCSS.AreaWrapper} section`} id='knowledgeAreas'>
             <h2>Áreas de conhecimento</h2>
 
             <div className={areaCSS.AreaCards}>

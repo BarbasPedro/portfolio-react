@@ -7,7 +7,7 @@ import { Autoplay } from 'swiper/modules';
 
 function Portfolio() {
     return (
-        <div className={`${portfolioCSS.portfolioWrapper} section`}>
+        <div className={`${portfolioCSS.portfolioWrapper} section`} id='portfolio'>
             <h2>Meu Portfólio</h2>
             <p className={portfolioCSS.pera}>Alguns dos meus projetos:</p>
 

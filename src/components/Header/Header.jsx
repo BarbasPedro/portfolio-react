@@ -7,7 +7,7 @@ import heroImg from './../../assets/hero.jpg';
 function Header () {
     return (
         <div className={headerCSS.headerWrapper}>
-            <div className={headerCSS.headerContainer}>
+            <div className={headerCSS.headerContainer} id='home'>
                 <img src={heroImg} alt="Hero-img" />
                 <h1>Olá 👋, o meu nome é <span>Pedro Barbas</span></h1>
                 <p>Bem-vindo ao meu portfólio, eu sou <strong>Desenvolvedor Fullstack</strong> <br /> e estudo na área há 2 anos</p>
