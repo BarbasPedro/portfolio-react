@@ -1,0 +1,33 @@
+.swiper {
+    width: 100%;
+}
+
+.certificateWrapper {
+    color: var(--text-color);
+    padding: 20px;
+
+    h2 {
+        margin-bottom: 32px;
+    }
+}
+
+.Card {
+    height: 200px; /* Ajuste a altura conforme necessário */
+    border-radius: 8px;
+    overflow: hidden;
+    background-size: cover; /* Ajustado para cobertura completa */
+    background-repeat: no-repeat;
+}
+
+/* Ajuste para responsividade */
+@media (max-width: 768px) {
+    .swiper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .swiper {
+        width: 100%;
+    }
+}

@@ -1,6 +1,6 @@
 
 
-import aboutImg from './../../assets/aboutImg.png';
+import aboutImg from './../../assets/AboutImg.jpg';
 import aboutCSS from './About.module.css';
 
 function About () {
@@ -8,9 +8,9 @@ function About () {
         <div className={`${aboutCSS.AboutWrapper} section`}>
             <div className={aboutCSS.AboutContainer}>
                 <h2>Sobre mim</h2>
-                <p>Eu sou o Pedro, tenho 30 anos, nasci em Portugal e vim para o Brasil com 18 anos. Estudo programação há pouco mais de 2 anos e, desde o começo do ano 2024, me dedico somente à atividade.
-                Sou Dev Full Stack formado pela EBAC - Escola Britânica de Artes Criativas & Tecnologia e graduando em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta.
-                Atualmente, tenho me interessado por cloud AWS, estou em um treinamento avançado sobre e também sobre Java.
+                <p>Nasci em Portugal e vim para o Brasil com 18 anos. Estudo programação há pouco mais de 2 anos e, desde o começo do ano 2024, me dedico somente à atividade.
+                Sou <strong>Dev Full Stack</strong> formado pela EBAC - Escola Britânica de Artes Criativas & Tecnologia e graduando em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta.
+                Atualmente, estou desenvolvendo habilidades em Java e em cloud AWS.
                 </p>
 
                 <div className={aboutCSS.Skills}>
@@ -22,25 +22,30 @@ function About () {
                         <div className={aboutCSS.skill}>
                             <h3>Python</h3>
                             <div className={aboutCSS.line}>
-
                             </div>
                         </div>
+
                         <div className={aboutCSS.skill}>
                             <h3>React</h3>
                             <div className={aboutCSS.line}>
-
                             </div>
                         </div>
-                        <div className={aboutCSS.skill}>
-                            <h3>Java</h3>
-                            <div className={aboutCSS.line}>
 
-                            </div>
-                        </div>
                         <div className={aboutCSS.skill}>
                             <h3>Django</h3>
                             <div className={aboutCSS.line}>
+                            </div>
+                        </div>
 
+                        <div className={aboutCSS.skill}>
+                            <h3>Java</h3>
+                            <div className={aboutCSS.line}>
+                            </div>
+                        </div>
+
+                        <div className={aboutCSS.skill}>
+                            <h3>AWS</h3>
+                            <div className={aboutCSS.line}>
                             </div>
                         </div>
                     </div>

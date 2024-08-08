@@ -10,7 +10,7 @@ function Header () {
             <div className={headerCSS.headerContainer}>
                 <img src={heroImg} alt="Hero-img" />
                 <h1>Olá 👋, o meu nome é <span>Pedro Barbas</span></h1>
-                <p>Bem-vindo ao meu portfólio, eu sou <strong>Desenvolvedor Fullstack</strong> <br /> Estudo na área há 2 anos</p>
+                <p>Bem-vindo ao meu portfólio, eu sou <strong>Desenvolvedor Fullstack</strong> <br /> e estudo na área há 2 anos</p>
 
                 <div className={headerCSS.social}>
                     <a
