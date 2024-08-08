@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import{ useRef } from 'react';
 import navCSS from "./../Nav/Nav.module.css";
 
 function Nav () {

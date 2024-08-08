@@ -9,9 +9,14 @@ function Header () {
         <div className={headerCSS.headerWrapper}>
             <div className={headerCSS.headerContainer} id='home'>
                 <img src={heroImg} alt="Hero-img" />
-                <h1>Olá 👋, o meu nome é <span>Pedro Barbas</span></h1>
-                <p>Bem-vindo ao meu portfólio, eu sou <strong>Desenvolvedor Fullstack</strong> <br /> e estudo na área há 2 anos</p>
 
+                <h1>Olá 👋, o meu nome é <span>Pedro Barbas</span></h1>
+                <p>
+                    Bem-vindo ao meu portfólio, sou
+                    <strong> Desenvolvedor Fullstack</strong> <br />
+                    e estudo na área há 2 anos. <br />
+                    Estou me aprimorando em <strong>Back End</strong> e <strong>AWS Cloud</strong>
+                </p>
                 <div className={headerCSS.social}>
                     <a
                         href={cv}

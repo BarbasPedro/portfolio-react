@@ -1,4 +1,3 @@
-import React from 'react';
 import certificateCSS from './Certificate.module.css';
 import "swiper/css";
 import { Autoplay } from 'swiper/modules';

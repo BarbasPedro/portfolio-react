@@ -1,4 +1,3 @@
-import React from 'react';
 import portfolioCSS from './Portfolio.module.css';
 
 import "swiper/css";
